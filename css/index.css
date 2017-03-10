@@ -1,0 +1,276 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.header {
+	height: 60px;
+	background: #06c1ae;
+	color: #fff;
+	line-height: 60px;
+}
+.header .go-back {
+	float: left;
+	position: relative;
+}
+.header .arrow {
+	position: absolute;
+	border: 16px solid transparent;
+	border-right: 16px solid #fff;
+    left: -5px;
+    top: 14px;
+}
+.header .arrow.white {
+	top: -16px;
+    left: -12px;
+    border-right-color: #06c1ae;
+}
+.header .login {
+	float: right;
+	margin-right: 10px;
+}
+.header h1 {
+	text-align: center;
+	text-indent: 26px;
+}
+/* search */
+.search input {
+	width: 100%;
+	display: block;
+	height: 40px;
+	box-sizing: border-box;
+	padding: 0 10px;
+}
+.home {
+	background: #efefef;
+}
+.home .type-list {
+	background: #fff;
+	padding-bottom: 10px;
+}
+.home .type-list li {
+	float: left;
+	width: 20%;
+	text-align: center;
+	padding-top: 10px;
+}
+.home .type-list img {
+	width: 60%;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 8px;
+}
+.home .type-list a {
+	text-decoration: none;
+}
+.home .type-list span {
+	font-size: 12px;
+	color: #666;
+}
+.home .ad-list {
+	background: #fff;
+	margin: 10px;
+}
+.home .ad-list li {
+	float: left;
+	width: 33.33333333%;
+	border-right: 1px solid #ccc;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 5px 0 10px;
+}
+.home .ad-list li:last-child {
+	border-right: none;
+}
+.home .ad-list a {
+	text-decoration: none;
+}
+.home .ad-list h3 {
+	font-size: 16px;
+	color: #f00;
+	line-height: 30px;
+}
+.home .ad-list p {
+	font-size: 14px;
+	color: #666;
+	line-height: 20px;
+}
+.home .ad-list img {
+	width: 50%;
+}
+
+/*定义商品样式*/
+.item-list {
+	background: #fff;
+	padding: 5px 10px;
+}
+.item-list li {
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0;
+}
+.item-list img {
+	float: left;
+	width: 40%;
+}
+.item-list a {
+	text-decoration: none;
+	color: #666;
+}
+.item-list .description {
+	margin-left: 40%;
+	padding-left: 5px;
+	height: 72px;
+	position: relative;
+}
+.item-list h2 {
+	font-size: 18px;
+	color: #333;
+}
+.item-list p {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 5px;
+	font-size: 12px;
+}
+.item-list .current-price {
+	color: #06c1ae;
+	font-size: 14px;
+}
+.item-list .sales {
+	float: right;
+    line-height: 16px;
+}
+
+.list .list-type li {
+	float: left;
+	width: 25%;
+	height: 30px;
+	line-height: 30px;
+	border-left: 1px solid #ccc;
+	text-align: center;
+	color: #666;
+	font-size: 12px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ccc;
+}
+.list .list-type li:last-child {
+	border-right: 1px solid #ccc;
+}
+.list .list-type span:after {
+	content: '';
+	font-size: 0;
+	border: 4px solid transparent;
+	border-top: 4px solid #666;
+	position: relative;
+	top: -2px;
+	margin-left: 1px;
+}
+.list .load-more {
+	color: #06c1ae;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	font-size: 14px;
+}
+.list .load-more .arrow {
+	font-size: 0;
+	border: 8px solid transparent;
+	border-top: 8px solid #06c1ae;
+	position: relative;
+}
+.list .load-more .arrow:after {
+	content: '';
+	font-size: 0;
+	border: 8px solid transparent;
+	border-top: 8px solid #fff;
+	position: absolute;
+    top: -10px;
+    left: -8px;
+}
+
+/*定义商品页*/
+.product {
+	background: #efefef;
+}
+.product .product-image {
+	position: relative;
+} 
+.product .product-image h1,
+.product .product-image p {
+	position: absolute;
+	left: 0;
+	padding-left: 10px;
+	color: #fff;
+}
+.product .product-image p {
+	bottom: 10px;
+}
+.product .product-image h1 {
+	bottom: 40px;
+}
+.product .product-price {
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #ccc;
+	background: #fff;
+}
+.product .product-price .price {
+	color: #06c1ae;
+	padding-left: 10px;
+}
+.product .product-price .price b {
+	font-size: 40px;
+}
+.product .product-price .btn {
+	padding: 5px 10px;
+	background: orange;
+	color: #fff;
+	float: right;
+	line-height: 20px;
+	margin: 16px 10px;
+}
+.product .product-sales {
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	background: #fff;
+}
+.product .product-sales li {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	width: 50%;
+	color: yellowgreen;
+}
+.product .product-sales li.black {
+	color: #000;
+}
+.product .module-item {
+	background: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.product .module-item .sub-title {
+	border-bottom: 1px solid #ccc;
+	font-size: 30px;
+	line-height: 50px;
+}
+.product .module-item .content {
+	line-height: 30px;
+	padding: 10px 0;
+}
+.product .module-item .content h4 {
+	color: orange;
+	line-height: 50px;
+}
+.product .module-item .item-footer {
+	border-top: 1px solid #ccc;
+	color: skyblue;
+	line-height: 40px;
+}
